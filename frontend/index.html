@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShuvoX Hosting Web</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-icon">S</span><div><b>ShuvoX</b><small>HOSTING WEB</small></div></div>
+    <nav>
+      <a class="active" href="#overview">Overview</a>
+      <a href="#bots">My Bots</a>
+      <a href="#deploy">Deploy Bot</a>
+      <a href="#account">Account</a>
+    </nav>
+    <div class="side-note">Python Bot Cloud<br><span>Starter workspace</span></div>
+  </aside>
+  <main>
+    <header><div><p class="eyebrow">CONTROL PANEL</p><h1>Dashboard</h1></div><div class="avatar">SX</div></header>
+    <section class="welcome">
+      <div><p class="eyebrow light">WELCOME TO SHUVOX</p><h2>Your bots, one place.</h2><p>Manage your Python Telegram bots from a simple dashboard.</p></div>
+      <a class="button white" href="#deploy">＋ Deploy a bot</a>
+    </section>
+    <section class="stats">
+      <article><span>Total bots</span><strong id="total">0</strong><small>In your workspace</small></article>
+      <article><span>Running</span><strong>—</strong><small>Worker connection pending</small></article>
+      <article><span>Account plan</span><strong>Free</strong><small>Starter configuration</small></article>
+    </section>
+    <section class="panel" id="bots">
+      <div class="panel-head"><div><p class="eyebrow">WORKSPACE</p><h2>My bots</h2></div><a class="button" href="#deploy">＋ Add bot</a></div>
+      <div class="empty"><div class="empty-icon">⌘</div><h3>No bots yet</h3><p>Your deployed bots will appear here.</p></div>
+    </section>
+    <section class="panel deploy" id="deploy">
+      <p class="eyebrow">GET STARTED</p><h2>Deploy your first bot</h2>
+      <p class="muted">Upload support is planned for <code>main.py</code> and <code>requirements.txt</code>. Connect the secure worker before enabling execution.</p>
+      <div class="upload-box"><div class="upload-icon">↑</div><b>Python bot project</b><span>main.py + requirements.txt</span><small>Upload/deploy workflow is not connected in this starter build.</small></div>
+    </section>
+    <footer>© 2026 ShuvoX Hosting Web · Built for Python Telegram bots</footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
